@@ -1,0 +1,11 @@
+Future Todos (after presentation):
+
+
+Nice to haves:
+1. different explosion effects? 
+3. Make the story something sensical.
+4. Have bombs rotate about some axis close to y-axis (like spinning) and put a fire on its tip.
+5. have ufo drop nukes w/ nuke effect, spawn bunch of fires.
+7. move bgd translate
+9. add something to sky stage
+10. flames on back of player

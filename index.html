@@ -1,0 +1,40 @@
+<!-- index.html - The web page document containing the canvas (drawing surface), that launches your javascript files. //-->
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="UTF-8"/> <link rel="icon" href="assets/fav.ico">
+        <script> window.tiny_graphics = {};             // Store all our JavaScipt code inside of classes here.
+            window.classes = {}                    
+        </script>        
+        <script src="tiny-graphics.js" ></script>  <!--  Javascript "include" files.  Any code in them gets executed as part of the page loading. //-->
+        <script src= "dependencies.js" ></script>
+        <script src=   "main-scene.js" ></script>
+        <link rel="stylesheet" type="text/css" href="styles2.css">
+    </head>
+    <body>       <!-- Begin typing the next of your web page here. //-->
+        <!-- Adding bgm here because I feel like adding it using javascript degrades the quality. -->
+        <audio id="bgm1"><source src="audio/bgm/lith-harbor.mp3" type="audio/mp3"></audio>
+        <audio id="bgm2"><source src="audio/bgm/flyff.mp3" type="audio/mp3"></audio>
+
+        <div id="main-canvas" class="canvas-widget">
+            <img src="assets/Title_Instructions.gif" id="title_instructions">
+            <h1 id="high_score"></h1>
+            <h1 id="score"></h1>
+            <h1 id="special_mode_display"></h1>
+            <h1 id="special_mode_display_tag"></h1>
+            <h1 id="pause_display"></h1>
+            <h1 id="stage_display"></h1>
+            <h1 id="game_over_msg"></h1>
+        </div>
+            
+        <script> "use strict"     // ********************* THE ENTRY POINT OF YOUR WHOLE PROGRAM STARTS HERE ********************* 
+            // Use this code to embed a widget into any web page.  The widget inclues a 3D WebGL area
+            // (an HTML canvas) and various panels of controls.
+            const scenes = [ "Scene" ]; // First, list the names of scenes we will add to our canvas.  These will register themselves
+            // with this widget's Canvas_Manager so that their code can be called upon every time a 
+            // draw / keyboard / mouse event happens on the web page.
+            new Canvas_Widget( "main-canvas", scenes );             // Use the Canvas_Widget class to display the WebGL demo.  Pass in
+            // the name of the HTML element we are to replace with the widget.
+        </script>
+    </body>
+</html>

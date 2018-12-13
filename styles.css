@@ -1,0 +1,88 @@
+/*css*/
+@font-face {
+    font-family: 'Arcade Regular';
+    src: url("/assets/fonts/ArcadeRegular.ttf");
+}
+
+body {
+  margin: 0px;
+}
+
+#title_instructions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#high_score {
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  z-index: 5;
+  font-size: 28px;
+  color: yellow;
+  font-family: 'Arcade Regular';
+}
+
+#score {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  z-index: 5;
+  font-size: 28px;
+  color: yellow;
+  font-family: 'Arcade Regular';
+}
+
+#special_mode_display {
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  z-index: 5;
+  font-size: 28px;
+  color: red;
+  font-family: 'Arcade Regular';
+}
+
+#special_mode_display_tag {
+  position: absolute;
+  top: 11%;
+  left: 3%;
+  z-index: 5;
+  font-size: 28px;
+  color: red;
+  font-family: 'Arcade Regular';
+}
+
+#pause_display {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 5;
+  font-size: 28px;
+  color: yellow;
+  font-family: 'Arcade Regular';
+}
+
+#stage_display {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 5;
+  font-size: 28px;
+  color: yellow;
+  font-family: 'Arcade Regular';
+}
+
+#game_over_msg {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 40px;
+  color: yellow;
+  font-family: 'Arcade Regular';
+}

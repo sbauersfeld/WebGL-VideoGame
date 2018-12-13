@@ -1,0 +1,27 @@
+Change between camera (ortho to proj)
+   - In Mat 4 class
+
+Questions:
+    HTML:
+        -store all javascript code inside of classes here
+        -javascript "include" files
+        -canvas
+        -canvas widget
+        -scene, can have multiple?
+        -css/html/js on top of canvas?
+
+    Tiny Graphics:
+        -vertex buffer vs shape
+        -graphics state?
+        -shader
+        -texture class
+        -webgl manager . has one canvas, but can have more than one scene
+        -scene component
+            -scenes share globals
+            -scenes create that table thing
+        -
+
+
+per shape : material
+per scene: : graphics state
+    -camera matrix light projection matrix
